@@ -3,13 +3,13 @@
 
 //$connexion= mysqli_connect("localhost","eliajimm_ejhost","j'utiliseLGsmartTV","eliajimm_payement");
 	
-$connexion = mysqli_connect("localhost", " ",  " ","blog");
+$connexion = mysqli_connect("127.0.0.1", "root ",  " ","blog");
 					
 		
 		
 		$nom=$_POST['nom'];
-		$prenom=$_POST['prenom'];
-		$telephone=$_POST['telephone'];
+		$surname=$_POST['surname'];
+		$email=$_POST['email'];
 		//$ville=$_POST['ville'];
 		//$pays=$_POST['pays'];
 		//$adresse=$_POST['adresse'];
